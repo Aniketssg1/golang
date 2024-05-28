@@ -1,0 +1,1791 @@
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2043992
+# TotalAlloc = 3332784
+# Sys = 13322488
+# Lookups = 0
+# Mallocs = 29061
+# Frees = 15585
+# HeapAlloc = 2043992
+# HeapSys = 7897088
+# HeapIdle = 3686400
+# HeapInuse = 4210688
+# HeapReleased = 3129344
+# HeapObjects = 13476
+# Stack = 491520 / 491520
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2287864
+# OtherSys = 1045160
+# NextGC = 4410240
+# LastGC = 1715774807150124000
+# PauseNs = [632000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 1
+# NumForcedGC = 0
+# GCCPUFraction = 0.03454650016431154
+# DebugGC = false
+# MaxRSS = 15732736
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2221976
+# TotalAlloc = 3510768
+# Sys = 13322488
+# Lookups = 0
+# Mallocs = 30725
+# Frees = 15898
+# HeapAlloc = 2221976
+# HeapSys = 7864320
+# HeapIdle = 3391488
+# HeapInuse = 4472832
+# HeapReleased = 3096576
+# HeapObjects = 14827
+# Stack = 524288 / 524288
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2324872
+# OtherSys = 1008152
+# NextGC = 4410240
+# LastGC = 1715774807150124000
+# PauseNs = [632000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 1
+# NumForcedGC = 0
+# GCCPUFraction = 0.03454650016431154
+# DebugGC = false
+# MaxRSS = 16289792
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2347040
+# TotalAlloc = 3635832
+# Sys = 13322488
+# Lookups = 0
+# Mallocs = 32326
+# Frees = 16186
+# HeapAlloc = 2347040
+# HeapSys = 7831552
+# HeapIdle = 3334144
+# HeapInuse = 4497408
+# HeapReleased = 3080192
+# HeapObjects = 16140
+# Stack = 557056 / 557056
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2331040
+# OtherSys = 1001984
+# NextGC = 4410240
+# LastGC = 1715774807150124000
+# PauseNs = [632000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 1
+# NumForcedGC = 0
+# GCCPUFraction = 0.03454650016431154
+# DebugGC = false
+# MaxRSS = 16433152
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2486856
+# TotalAlloc = 3775648
+# Sys = 13322488
+# Lookups = 0
+# Mallocs = 33984
+# Frees = 16493
+# HeapAlloc = 2486856
+# HeapSys = 7766016
+# HeapIdle = 3178496
+# HeapInuse = 4587520
+# HeapReleased = 3039232
+# HeapObjects = 17491
+# Stack = 557056 / 557056
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2410960
+# OtherSys = 987600
+# NextGC = 4410240
+# LastGC = 1715774807150124000
+# PauseNs = [632000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 1
+# NumForcedGC = 0
+# GCCPUFraction = 0.03454650016431154
+# DebugGC = false
+# MaxRSS = 16867328
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2010936
+# TotalAlloc = 3911000
+# Sys = 13912312
+# Lookups = 0
+# Mallocs = 35586
+# Frees = 23955
+# HeapAlloc = 2010936
+# HeapSys = 7864320
+# HeapIdle = 3481600
+# HeapInuse = 4382720
+# HeapReleased = 2932736
+# HeapObjects = 11631
+# Stack = 524288 / 524288
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2914544
+# OtherSys = 1008304
+# NextGC = 4588104
+# LastGC = 1715774927165785900
+# PauseNs = [632000 571500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 1715774927165785900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 2
+# NumForcedGC = 0
+# GCCPUFraction = 1.92484678873097e-05
+# DebugGC = false
+# MaxRSS = 17367040
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2103824
+# TotalAlloc = 4003888
+# Sys = 13912312
+# Lookups = 0
+# Mallocs = 36843
+# Frees = 24231
+# HeapAlloc = 2103824
+# HeapSys = 7864320
+# HeapIdle = 3465216
+# HeapInuse = 4399104
+# HeapReleased = 2932736
+# HeapObjects = 12612
+# Stack = 524288 / 524288
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2928952
+# OtherSys = 993896
+# NextGC = 4588104
+# LastGC = 1715774927165785900
+# PauseNs = [632000 571500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 1715774927165785900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 2
+# NumForcedGC = 0
+# GCCPUFraction = 1.92484678873097e-05
+# DebugGC = false
+# MaxRSS = 17371136
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2194480
+# TotalAlloc = 4094544
+# Sys = 13912312
+# Lookups = 0
+# Mallocs = 38055
+# Frees = 24504
+# HeapAlloc = 2194480
+# HeapSys = 7864320
+# HeapIdle = 3448832
+# HeapInuse = 4415488
+# HeapReleased = 2924544
+# HeapObjects = 13551
+# Stack = 524288 / 524288
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2935120
+# OtherSys = 987728
+# NextGC = 4588104
+# LastGC = 1715774927165785900
+# PauseNs = [632000 571500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 1715774927165785900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 2
+# NumForcedGC = 0
+# GCCPUFraction = 1.92484678873097e-05
+# DebugGC = false
+# MaxRSS = 17391616
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 2289776
+# TotalAlloc = 4189840
+# Sys = 13912312
+# Lookups = 0
+# Mallocs = 39311
+# Frees = 24780
+# HeapAlloc = 2289776
+# HeapSys = 7864320
+# HeapIdle = 3407872
+# HeapInuse = 4456448
+# HeapReleased = 2891776
+# HeapObjects = 14531
+# Stack = 524288 / 524288
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2953624
+# OtherSys = 969224
+# NextGC = 4588104
+# LastGC = 1715774927165785900
+# PauseNs = [632000 571500 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 1715774927165785900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 2
+# NumForcedGC = 0
+# GCCPUFraction = 1.92484678873097e-05
+# DebugGC = false
+# MaxRSS = 17551360
+heap profile: 8: 256048 [11: 269728] @ heap/1048576
+1: 172032 [1: 172032] @ 0x19ff2d 0x19fc9a 0x607ae5 0x606685 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x607ae4	github.com/go-playground/validator/v10.map.init.6+0x24	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x606684	github.com/go-playground/validator/v10.init+0x164	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/country_codes.go:191
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 65536 [1: 65536] @ 0x19ff2d 0x19fc9a 0x5628d8 0x53bbd6 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x5628d7	github.com/xdg-go/stringprep.map.init.3+0x37	C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x53bbd5	github.com/xdg-go/stringprep.init+0x75		C:/Users/aniketga/go/pkg/mod/github.com/xdg-go/stringprep@v1.0.4/tables.go:1820
+#	0x1dd4ac	runtime.doInit1+0xec				C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326				C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d				C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 12288 [1: 12288] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45		C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2		C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+1: 3072 [1: 3072] @ 0x2c365b 0x2c3606 0x2c19d3 0x2c29e7 0x2c29e7 0x2c154d 0x2d60b7 0x2d6c0c 0x2d6c00 0x606c6d 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c365a	regexp/syntax.(*compiler).inst+0x9a			C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c3605	regexp/syntax.(*compiler).rune+0x45			C:/Program Files/Go/src/regexp/syntax/compile.go:273
+#	0x2c19d2	regexp/syntax.(*compiler).compile+0x2f2			C:/Program Files/Go/src/regexp/syntax/compile.go:110
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306		C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c154c	regexp/syntax.Compile+0x14c				C:/Program Files/Go/src/regexp/syntax/compile.go:74
+#	0x2d60b6	regexp.compile+0x76					C:/Program Files/Go/src/regexp/regexp.go:180
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606c6c	github.com/go-playground/validator/v10.init+0x74c	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:106
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 2688 [1: 2688] @ 0x2d59a5 0x2d4b33 0x2d46ab 0x2d5d9f 0x2d60cf 0x2d6c0c 0x2d6c00 0x606739 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2d59a4	regexp.makeOnePass.func1+0x1204				C:/Program Files/Go/src/regexp/onepass.go:391
+#	0x2d4b32	regexp.makeOnePass.func1+0x392				C:/Program Files/Go/src/regexp/onepass.go:359
+#	0x2d46aa	regexp.makeOnePass+0x32a				C:/Program Files/Go/src/regexp/onepass.go:449
+#	0x2d5d9e	regexp.compileOnePass+0x13e				C:/Program Files/Go/src/regexp/onepass.go:501
+#	0x2d60ce	regexp.compile+0x8e					C:/Program Files/Go/src/regexp/regexp.go:191
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x606738	github.com/go-playground/validator/v10.init+0x218	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:81
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 288 [1: 288] @ 0x1a4c0c 0x48d217 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x48d216	vendor/golang.org/x/net/http/httpproxy.init+0x36	C:/Program Files/Go/src/vendor/golang.org/x/net/http/httpproxy/proxy.go:277
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 112 [1: 112] @ 0x2c7c05 0x2c7b51 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x61dfa9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c7c04	regexp/syntax.(*parser).newRegexp+0x7c4			C:/Program Files/Go/src/regexp/syntax/parse.go:146
+#	0x2c7b50	regexp/syntax.parse+0x710				C:/Program Files/Go/src/regexp/syntax/parse.go:1053
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x61dfa8	github.com/go-playground/validator/v10.init.0+0x88	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/postcode_regexes.go:171
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+1: 32 [1: 32] @ 0x2c44e5 0x2c42f3 0x2c47a5 0x2c801a 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x607425 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c44e4	regexp/syntax.(*parser).maybeConcat+0xc4		C:/Program Files/Go/src/regexp/syntax/parse.go:353
+#	0x2c42f2	regexp/syntax.(*parser).push+0x252			C:/Program Files/Go/src/regexp/syntax/parse.go:323
+#	0x2c47a4	regexp/syntax.(*parser).literal+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:377
+#	0x2c8019	regexp/syntax.parse+0xbd9				C:/Program Files/Go/src/regexp/syntax/parse.go:932
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x607424	github.com/go-playground/validator/v10.init+0xf04	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:143
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 12288] @ 0x2c2336 0x2c22d2 0x2c22c6 0x2c29c5 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7 0x2c272b 0x2c29e7
+#	0x2c2335	regexp/syntax.(*compiler).inst+0xc55		C:/Program Files/Go/src/regexp/syntax/compile.go:164
+#	0x2c22d1	regexp/syntax.(*compiler).cap+0xbf1		C:/Program Files/Go/src/regexp/syntax/compile.go:179
+#	0x2c22c5	regexp/syntax.(*compiler).compile+0xbe5		C:/Program Files/Go/src/regexp/syntax/compile.go:128
+#	0x2c29c4	regexp/syntax.(*compiler).compile+0x12e4	C:/Program Files/Go/src/regexp/syntax/compile.go:145
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+#	0x2c272a	regexp/syntax.(*compiler).compile+0x104a	C:/Program Files/Go/src/regexp/syntax/compile.go:137
+#	0x2c29e6	regexp/syntax.(*compiler).compile+0x1306	C:/Program Files/Go/src/regexp/syntax/compile.go:147
+
+0: 0 [1: 112] @ 0x2cf496 0x2cf456 0x2cef47 0x2d60ad 0x2d6c0c 0x2d6c00 0x6071a5 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2cf495	regexp/syntax.simplify1+0x995				C:/Program Files/Go/src/regexp/syntax/simplify.go:148
+#	0x2cf455	regexp/syntax.(*Regexp).Simplify+0x955			C:/Program Files/Go/src/regexp/syntax/simplify.go:100
+#	0x2cef46	regexp/syntax.(*Regexp).Simplify+0x446			C:/Program Files/Go/src/regexp/syntax/simplify.go:23
+#	0x2d60ac	regexp.compile+0x6c					C:/Program Files/Go/src/regexp/regexp.go:179
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6071a4	github.com/go-playground/validator/v10.init+0xc84	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:131
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+0: 0 [1: 1280] @ 0x19ff2d 0x1a194f 0x1a39b9 0x2c3d6b 0x2c3b25 0x2c39a7 0x2c4d45 0x2c816f 0x2d6070 0x2d606b 0x2d6c0c 0x2d6c00 0x6069b9 0x1dd4ad 0x1ceba7 0x1ceaae 0x2056e1
+#	0x2c3d6a	regexp/syntax.(*parser).calcSize+0x1aa			C:/Program Files/Go/src/regexp/syntax/parse.go:255
+#	0x2c3b24	regexp/syntax.(*parser).checkSize+0x124			C:/Program Files/Go/src/regexp/syntax/parse.go:206
+#	0x2c39a6	regexp/syntax.(*parser).checkLimits+0x26		C:/Program Files/Go/src/regexp/syntax/parse.go:165
+#	0x2c4d44	regexp/syntax.(*parser).repeat+0x3e4			C:/Program Files/Go/src/regexp/syntax/parse.go:435
+#	0x2c816e	regexp/syntax.parse+0xd2e				C:/Program Files/Go/src/regexp/syntax/parse.go:1010
+#	0x2d606f	regexp/syntax.Parse+0x2f				C:/Program Files/Go/src/regexp/syntax/parse.go:889
+#	0x2d606a	regexp.compile+0x2a					C:/Program Files/Go/src/regexp/regexp.go:172
+#	0x2d6c0b	regexp.Compile+0x2b					C:/Program Files/Go/src/regexp/regexp.go:135
+#	0x2d6bff	regexp.MustCompile+0x1f					C:/Program Files/Go/src/regexp/regexp.go:315
+#	0x6069b8	github.com/go-playground/validator/v10.init+0x498	C:/Users/aniketga/go/pkg/mod/github.com/go-playground/validator/v10@v10.20.0/regexes.go:93
+#	0x1dd4ac	runtime.doInit1+0xec					C:/Program Files/Go/src/runtime/proc.go:7176
+#	0x1ceba6	runtime.doInit+0x326					C:/Program Files/Go/src/runtime/proc.go:7143
+#	0x1ceaad	runtime.main+0x22d					C:/Program Files/Go/src/runtime/proc.go:253
+
+
+# runtime.MemStats
+# Alloc = 1942976
+# TotalAlloc = 4287872
+# Sys = 13912312
+# Lookups = 0
+# Mallocs = 40561
+# Frees = 29300
+# HeapAlloc = 1942976
+# HeapSys = 7864320
+# HeapIdle = 3596288
+# HeapInuse = 4268032
+# HeapReleased = 2908160
+# HeapObjects = 11261
+# Stack = 524288 / 524288
+# MSpan = 116800 / 130560
+# MCache = 9344 / 16352
+# BuckHashSys = 1453944
+# GCSys = 2953624
+# OtherSys = 969224
+# NextGC = 4535832
+# LastGC = 1715775047175687700
+# PauseNs = [632000 571500 513900 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# PauseEnd = [1715774807150124000 1715774927165785900 1715775047175687700 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+# NumGC = 3
+# NumForcedGC = 0
+# GCCPUFraction = 1.4297882503893786e-05
+# DebugGC = false
+# MaxRSS = 17551360
