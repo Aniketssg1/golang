@@ -1,0 +1,7 @@
+
+Memory usage initially
+Alloc = 0MiB TotalAlloc = 0MiB Sys = 6MiB NumGC = 0 
+Memory usage after large slice allocation
+Alloc = 2MiB TotalAlloc = 10MiB Sys = 10MiB NumGC = 2 
+Memory usage after garbage collection
+Alloc = 0MiB TotalAlloc = 10MiB Sys = 10MiB NumGC = 3 

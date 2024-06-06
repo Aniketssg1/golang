@@ -1,0 +1,9 @@
+
+Memory usage initially
+Alloc = 0MiB TotalAlloc = 0MiB Sys = 6MiB NumGC = 0 
+Memory usage after allocating a car struct
+Alloc = 0MiB TotalAlloc = 0MiB Sys = 6MiB NumGC = 0 
+Memory usage after printing the car struct
+Alloc = 0MiB TotalAlloc = 0MiB Sys = 6MiB NumGC = 0 
+Memory usage after garbage collection
+Alloc = 0MiB TotalAlloc = 0MiB Sys = 6MiB NumGC = 1 
