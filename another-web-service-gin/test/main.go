@@ -15,7 +15,7 @@ type album struct {
 }
 
 func getAlbums(c *gin.Context) {
-	response, err := http.Get("http://localhost:8080/albums")
+	response, err := http.Get("https://cdn.shriramfinance.in/")
 	if err != nil {
 		c.IndentedJSON(http.StatusNotFound, err)
 		return
@@ -38,5 +38,5 @@ func main() {
 
 	router.GET("/albums", getAlbums)
 
-	router.Run(":8081")
+	router.Run(":8080")
 }

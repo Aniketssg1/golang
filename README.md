@@ -1,1 +1,1 @@
-Programs to understand fundamental concepts and programs in Golang.
+Programs to understand fundamental concepts with the help of programs in Golang.

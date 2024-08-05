@@ -59,7 +59,7 @@ func main() {
 	}
 	defer profileFile.Close()
 
-	// Create a ticker to for every 5 seconds
+	// Create a ticker to for every 30 seconds
 	ticker := time.NewTicker(30 * time.Second)
 	// Create a go routine to store to profile data
 	go func() {
